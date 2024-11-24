@@ -2,17 +2,16 @@
 
 namespace Astrogoat\Mailcoach\Extensions\Marketing;
 
-use Illuminate\View\View;
 use Astrogoat\Mailcoach\Settings\MailcoachSettings;
 use Astrogoat\Marketing\Settings\MarketingSettings;
+use Illuminate\View\View;
 
 class PromotionBarComposer
 {
     public function __construct(
         protected MailcoachSettings $mailcoachSettings,
         protected MarketingSettings $marketingSettings
-    )
-    {
+    ) {
         //
     }
 

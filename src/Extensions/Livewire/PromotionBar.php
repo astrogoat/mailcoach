@@ -2,9 +2,9 @@
 
 namespace Astrogoat\Mailcoach\Extensions\Livewire;
 
-use Livewire\Component;
-use Astrogoat\Marketing\Marketing;
 use Astrogoat\Mailcoach\Settings\MailcoachSettings;
+use Astrogoat\Marketing\Marketing;
+use Livewire\Component;
 
 class PromotionBar extends Component
 {
@@ -23,7 +23,7 @@ class PromotionBar extends Component
         app(Marketing::class)
             ->driver('mailcoach')
             ->subscribe($this->settings->promotion_bar_list_uuid, [
-                'email' => $this->email
+                'email' => $this->email,
             ]);
 
         $this->signedUp = true;

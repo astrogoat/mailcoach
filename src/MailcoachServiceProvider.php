@@ -2,16 +2,16 @@
 
 namespace Astrogoat\Mailcoach;
 
-use Livewire\Livewire;
-use Helix\Lego\Apps\App;
-use Astrogoat\Marketing\Marketing;
-use Illuminate\Support\Facades\View;
-use Helix\Lego\Apps\AppPackageServiceProvider;
-use Spatie\LaravelPackageTools\Package;
-use Astrogoat\Mailcoach\Settings\MailcoachSettings;
 use Astrogoat\Mailcoach\Extensions\Marketing\PromotionBar;
 use Astrogoat\Mailcoach\Extensions\Marketing\PromotionBarComposer;
+use Astrogoat\Mailcoach\Settings\MailcoachSettings;
+use Astrogoat\Marketing\Marketing;
 use Astrogoat\Marketing\Settings\Peripherals\PromotionBar as MarketingPromotionBar;
+use Helix\Lego\Apps\App;
+use Helix\Lego\Apps\AppPackageServiceProvider;
+use Illuminate\Support\Facades\View;
+use Livewire\Livewire;
+use Spatie\LaravelPackageTools\Package;
 
 class MailcoachServiceProvider extends AppPackageServiceProvider
 {

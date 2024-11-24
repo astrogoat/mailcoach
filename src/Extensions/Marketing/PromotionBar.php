@@ -2,9 +2,9 @@
 
 namespace Astrogoat\Mailcoach\Extensions\Marketing;
 
-use Illuminate\Validation\Rule;
 use Astrogoat\Marketing\Marketing;
 use Helix\Lego\Settings\Peripherals\Peripheral;
+use Illuminate\Validation\Rule;
 
 class PromotionBar extends Peripheral
 {

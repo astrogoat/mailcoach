@@ -2,7 +2,6 @@
 
 namespace Astrogoat\Mailcoach;
 
-use Illuminate\Support\Facades\Log;
 use Astrogoat\Marketing\MarketingDriver;
 
 class MailcoachDriver implements MarketingDriver

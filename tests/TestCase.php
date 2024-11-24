@@ -2,9 +2,9 @@
 
 namespace Astrogoat\Mailcoach\Tests;
 
+use Astrogoat\Mailcoach\MailcoachServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Astrogoat\Mailcoach\MailcoachServiceProvider;
 
 class TestCase extends Orchestra
 {
