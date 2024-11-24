@@ -1,5 +1,4 @@
 <?php
-// config for Astrogoat/Mailcoach
 
 return [
     /*

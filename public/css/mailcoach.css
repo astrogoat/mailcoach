@@ -1,0 +1,125 @@
+/* Stylesheet for mailcoach */
+.mailcoach-container {
+    width: 100%
+}
+@media (min-width: 640px) {
+    .mailcoach-container {
+        max-width: 640px
+    }
+}
+@media (min-width: 768px) {
+    .mailcoach-container {
+        max-width: 768px
+    }
+}
+@media (min-width: 1024px) {
+    .mailcoach-container {
+        max-width: 1024px
+    }
+}
+@media (min-width: 1280px) {
+    .mailcoach-container {
+        max-width: 1280px
+    }
+}
+@media (min-width: 1536px) {
+    .mailcoach-container {
+        max-width: 1536px
+    }
+}
+.mailcoach-mx-auto {
+    margin-left: auto;
+    margin-right: auto
+}
+.mailcoach-ml-3 {
+    margin-left: 0.75rem
+}
+.mailcoach-ml-4 {
+    margin-left: 1rem
+}
+.mailcoach-flex {
+    display: flex
+}
+.mailcoach-h-4 {
+    height: 1rem
+}
+.mailcoach-h-8 {
+    height: 2rem
+}
+.mailcoach-h-12 {
+    height: 3rem
+}
+.mailcoach-w-60 {
+    width: 15rem
+}
+.mailcoach-items-center {
+    align-items: center
+}
+.mailcoach-justify-center {
+    justify-content: center
+}
+.mailcoach-rounded-md {
+    border-radius: 0.375rem
+}
+.mailcoach-rounded-lg {
+    border-radius: 0.5rem
+}
+.mailcoach-rounded-none {
+    border-radius: 0px
+}
+.mailcoach-rounded-sm {
+    border-radius: 0.125rem
+}
+.mailcoach-rounded-xl {
+    border-radius: 0.75rem
+}
+.mailcoach-border-0 {
+    border-width: 0px
+}
+.mailcoach-bg-teal-300 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(94 234 212 / var(--tw-bg-opacity, 1))
+}
+.mailcoach-bg-teal-50 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(240 253 250 / var(--tw-bg-opacity, 1))
+}
+.mailcoach-bg-teal-500 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(20 184 166 / var(--tw-bg-opacity, 1))
+}
+.mailcoach-px-2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem
+}
+.mailcoach-px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem
+}
+.mailcoach-py-1\.5 {
+    padding-top: 0.375rem;
+    padding-bottom: 0.375rem
+}
+.mailcoach-py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem
+}
+.mailcoach-text-center {
+    text-align: center
+}
+.mailcoach-text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem
+}
+.mailcoach-uppercase {
+    text-transform: uppercase
+}
+.mailcoach-text-teal-800 {
+    --tw-text-opacity: 1;
+    color: rgb(17 94 89 / var(--tw-text-opacity, 1))
+}
+.mailcoach-text-white {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity, 1))
+}
+

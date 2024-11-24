@@ -18,8 +18,7 @@ const mix = require('laravel-mix');
  |
  */
 
-// mix
-    // .postCss('resources/css/mailcoach.css', 'css', [require('tailwindcss')('tailwind.config.js')])
-    // .js('resources/js/mailcoach.js', 'js')
-    // .version()
-    // .setPublicPath('public/')
+mix
+    .postCss('resources/css/mailcoach.css', 'css', [require('tailwindcss')('tailwind.config.js')])
+    .version()
+    .setPublicPath('public/')

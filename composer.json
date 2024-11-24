@@ -24,9 +24,11 @@
     ],
     "require": {
         "php": "^8.3",
-        "astrogoat/strata": "^0.7.7",
+        "astrogoat/marketing": "^0.1.0",
+        "astrogoat/strata": "dev-app-extensions as 0.7.68",
+        "illuminate/contracts": "^10.0",
         "spatie/laravel-package-tools": "^1.4.3",
-        "illuminate/contracts": "^10.0"
+        "spatie/mailcoach-sdk-php": "^1.7"
     },
     "require-dev": {
         "nunomaduro/collision": "^5.3|^7.0",
