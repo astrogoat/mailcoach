@@ -17,6 +17,7 @@ class MailcoachSettings extends AppSettings
     public string $promotion_bar_background_color;
     public string $promotion_bar_text_color;
     public string $promotion_bar_input_background_color;
+    public string $promotion_bar_input_text_color;
     public string $promotion_bar_button_background_color;
     public string $promotion_bar_button_text_color;
     public string $promotion_bar_radius;

@@ -19,6 +19,7 @@ class PromotionBar extends Peripheral
             'settings.promotion_bar_background_color' => Rule::requiredIf($this->settings->enabled === true),
             'settings.promotion_bar_text_color' => Rule::requiredIf($this->settings->enabled === true),
             'settings.promotion_bar_input_background_color' => Rule::requiredIf($this->settings->enabled === true),
+            'settings.promotion_bar_input_text_color' => Rule::requiredIf($this->settings->enabled === true),
             'settings.promotion_bar_button_background_color' => Rule::requiredIf($this->settings->enabled === true),
             'settings.promotion_bar_button_text_color' => Rule::requiredIf($this->settings->enabled === true),
             'settings.promotion_bar_radius' => Rule::requiredIf($this->settings->enabled === true),

@@ -52,6 +52,11 @@
         />
 
         <x-lego::color-picker
+            label="Input Text Color"
+            wire:model="settings.promotion_bar_input_text_color"
+        />
+
+        <x-lego::color-picker
             label="Button Background Color"
             wire:model="settings.promotion_bar_button_background_color"
             position="left"

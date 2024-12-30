@@ -15,7 +15,7 @@
                             name="email"
                             wire:model="email"
                             class="mailcoach-ml-4 mailcoach-h-8 mailcoach-border-0 {{ $this->settings->promotion_bar_radius }} mailcoach-text-sm mailcoach-w-60"
-                            style="background-color: {{ $this->settings->promotion_bar_input_background_color }}"
+                            style="background-color: {{ $this->settings->promotion_bar_input_background_color }}; color: {{ $this->settings->promotion_bar_input_text_color }}"
                             placeholder="{{ $this->settings->promotion_bar_input_placeholder }}"
                         >
                         <button
