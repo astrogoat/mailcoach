@@ -37,34 +37,40 @@
     <div class="grid grid-cols-2 gap-4">
         <x-lego::color-picker
             label="Background Color"
-            wire:model="settings.promotion_bar_background_color"
+            :color="data_get($this, 'settings.promotion_bar_background_color')"
+            x-on:color-picker-change="$wire.set('settings.promotion_bar_background_color', $event.detail)"
         />
 
         <x-lego::color-picker
             label="Text Color"
-            wire:model="settings.promotion_bar_text_color"
+            :color="data_get($this, 'settings.promotion_bar_text_color')"
+            x-on:color-picker-change="$wire.set('settings.promotion_bar_text_color', $event.detail)"
             position="left"
         />
 
         <x-lego::color-picker
             label="Input Background Color"
-            wire:model="settings.promotion_bar_input_background_color"
+            :color="data_get($this, 'settings.promotion_bar_input_background_color')"
+            x-on:color-picker-change="$wire.set('settings.promotion_bar_input_background_color', $event.detail)"
         />
 
         <x-lego::color-picker
             label="Input Text Color"
-            wire:model="settings.promotion_bar_input_text_color"
+            :color="data_get($this, 'settings.promotion_bar_input_text_color')"
+            x-on:color-picker-change="$wire.set('settings.promotion_bar_input_text_color', $event.detail)"
         />
 
         <x-lego::color-picker
             label="Button Background Color"
-            wire:model="settings.promotion_bar_button_background_color"
+            :color="data_get($this, 'settings.promotion_bar_button_background_color')"
+            x-on:color-picker-change="$wire.set('settings.promotion_bar_button_background_color', $event.detail)"
             position="left"
         />
 
         <x-lego::color-picker
             label="Button Text Color"
-            wire:model="settings.promotion_bar_button_text_color"
+            :color="data_get($this, 'settings.promotion_bar_button_text_color')"
+            x-on:color-picker-change="$wire.set('settings.promotion_bar_button_text_color', $event.detail)"
         />
 
     </div>
